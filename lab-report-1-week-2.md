@@ -61,7 +61,6 @@ $ mkdir .ssh
 * Logout, and on the client type in this command
 ```
 $ scp <key path> <username>:~/.ssh/authorized_keys
-
 ```
 ## Optimizing Remote Running
 
