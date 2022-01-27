@@ -2,7 +2,7 @@
 
 ## Code Change Difference 1: No Ending Parenthesis
 
-![CodeChange1](images/codechange1.png)
+![CodeChange1](images/codechange1.PNG)
 
 [Here](input_fail_files/incorrect.html) is the link to the failure inducing input test file for code difference 1.
 
@@ -18,7 +18,7 @@ This is because the closing parenthesis index equals -1 because closing parenthe
 
 ## Code Change Difference 2: Image vs Link
 
-![CodeChange2](images/codechange2.png)
+![CodeChange2](images/codechange2.PNG)
 
 [Here](input_fail_files/image.html) is the link to the failure inducing input test file for code difference 2.
 
@@ -34,7 +34,7 @@ The failure inducing input had an exclamation mark before the square bracket, bu
 
 ## Code Change Difference 3: Brackets/Parenthesis In Link
 
-![CodeChange3](images/codechange3.png)
+![CodeChange3](images/codechange3.PNG)
 
 [Here](input_fail_files/new-file.html) is the link to the failure inducing input test file for code difference 2.
 
