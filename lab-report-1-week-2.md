@@ -2,7 +2,7 @@
 
 ## Installing VScode
 
-![image](vscode.PNG)
+![image](images/vscode.PNG)
 
 * Download VS Code from [here](https://code.visualstudio.com/download)
 * Install your OS version and follow the installer instructions
@@ -17,7 +17,7 @@ $ ssh cs15lwi22<insert course specific letters>@ieng6.ucsd.edu
 ```
 * When you are connected to the server the terminal should look like the screnshot below
 
-![image](cse15l-server.png)
+![image](images/cse15l-server.png)
 
 * to look up the letters for your account, use this [link](https://sdacs.ucsd.edu/~icc/index.php)
 * you may need to change your password in tritonlink before you can connect to the server
@@ -35,7 +35,7 @@ cat <path to file> // prints out data from file
 exit // logs out of server
 ```
 * An example of using ls and ls -a
-![image](commands.PNG)
+![image](images/commands.PNG)
 
 ## Moving Files with scp
 
@@ -45,12 +45,12 @@ $scp <filename> <username>:~/
 ```
 * The command will prompt you to login, and when you login to the server again and use ls you should see the file in the home directory of the server
 * Below is an example screenshot of copying a file from the local computer to the server
-![image](scp.PNG)
+![image](images/scp.PNG)
 
 ## Setting an SSH Key
 
 * Follow the steps on this [link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) to generate an SSH key. Generating the key should look like this:
-![image](sshkey.PNG)
+![image](images/sshkey.PNG)
 
 * This is so you don't have to enter your password every time you connect to the server
 * Windows users: follow the steps up to the ssh-agent commands, other OS users do not need the ssh-agent steps
@@ -75,4 +75,4 @@ ssh <username> "<command>"
 cd <directory>; ls -a;
 ```
 * Below is an example of multiple commands running on the server
-![image](multiplecmds.PNG)
+![image](images/multiplecmds.PNG)
