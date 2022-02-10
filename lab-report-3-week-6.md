@@ -16,6 +16,6 @@ I used command prompt to login to the ieng6 server. I used the ieng6 identity I 
 
 ### **SCP command** 
 
-![scp_using_bash_file](images/scpieng6.PNG)
+![scp_using_bash_file](images/scpmovebash.PNG)
 
-I used scp to copy a test java file to the ieng6 server.
+I used scp to copy a txt file called move_file.txt to the ieng6 server. I used the ieng6 identity saved on my computer to make using the scp command easier. It shows up in my main directory when I connect to the server.
