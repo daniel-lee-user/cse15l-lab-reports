@@ -2,6 +2,8 @@
 
 [my markdown-parse repo](https://github.com/daniel-lee-user/markdown-parse)
 
+[the repo I reveiewed](https://github.com/ericwpei/markdown-parse)
+
 ## Markdown Parse Snippet 1
 
 Using the vscode preview for mdsnippet1 I decided that the last three links (`google.com, google.com, and ucsd.edu) should be recognized as valid links. url.com should not be recognized as a valid link.
