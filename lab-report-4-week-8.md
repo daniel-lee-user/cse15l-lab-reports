@@ -22,7 +22,13 @@ public void testMDSnippet1() throws IOException {
 }
 ```
 
+My implementation output:
+
 ![test1fail](images/mdsnippet1.PNG)
+
+Implementation I reviewed output:
+
+![othertest1fail](images/othermdsnippet1.PNG)
 
 I think there is a small code change I can make that would make my program work for snippet 1 and all related cases that use inline code with backticks. I could change the code regarding the link itself (inside the parenthesis to ignore all backticks. I would also change the code checking the character before the opening bracket. I would  make sure that if there is at least one backtick before the opening bracket and a backtick after it the url would be skipped.
 
@@ -46,7 +52,13 @@ Here is the test I implemented for both my implementation and the repo I reviewe
     }
 ```
 
+My implementation output:
+
 ![test2fail](images/mdsnippet2.PNG)
+
+Implementation I reviewed output:
+
+![othertest2fail](images/othermdsnippet2.PNG)
 
 I do not think there is a small code change that will make my program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets. I would have to implement a lot of helper methods that would check for nested links within nested links. There are too many cases to account for when checking for extra brackets, extra parenthesis, and nested links.
 
@@ -70,6 +82,12 @@ public void testMDSnippet3() throws IOException {
 }
 ```
 
+My implementation output:
+
 ![test3fail](images/mdsnippet3.PNG)
+
+Implementation I reviewed output:
+
+![othertest3fail](images/othermdsnippet3.PNG)
 
 I think there is a small code change I could make that would make my program work for snippet 3 and all related cases that have newlines in brackets and parentheses. Essentially, I would have to account for links or link descriptions that could be longer than one line, but do not have any line breaks (empty lines) between parenthesis or brackets. I would do this by searching for an ending parenthesis or bracket after the starting one until I either found it or an empty line break.
